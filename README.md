@@ -233,7 +233,7 @@ export const conversations = useLocalStorage('chat-conversations', [])
 ### 开发模式
 本项目采用 **"人类设计 + AI 辅助实现"** 的协作开发模式：
 - **产品架构与需求设计**：由项目所有者人工完成
-- **代码实现**：主要由 AI（Claude/GitHub Copilot 等）基于详细提示词生成
+- **代码实现**：主要由 AI（Kimi Code）基于详细提示词生成
 - **质量把控**：所有代码均经过人工审核、测试与集成
 
 ### 许可证声明
@@ -247,7 +247,7 @@ export const conversations = useLocalStorage('chat-conversations', [])
 
 ### AI 工具清单
 - **架构设计**：cf-acfun
-- **代码生成**：Kimi 2.5
+- **代码生成**：Kimi Code
 - **文档编写**：AI 辅助，人工校对
 
 ### 人工创造性贡献
