@@ -215,7 +215,7 @@ export const conversations = useLocalStorage('chat-conversations', [])
 
 ## 📄 许可证
 
-[MIT](LICENSE)
+[Apache License](LICENSE)
 
 ## 🤝 贡献
 
@@ -226,7 +226,7 @@ export const conversations = useLocalStorage('chat-conversations', [])
 如有问题或建议，欢迎通过以下方式联系：
 
 - 提交 GitHub Issue
-- 发送邮件至 [your-email@example.com]
+- 发送邮件至 [cf-acfun@163.com]
 
 ---
 
