@@ -215,7 +215,7 @@ export const conversations = useLocalStorage('chat-conversations', [])
 
 ## 📄 许可证
 
-[Apache License](LICENSE)
+[Apache License 2.0](LICENSE)
 
 ## 🤝 贡献
 
@@ -237,7 +237,7 @@ export const conversations = useLocalStorage('chat-conversations', [])
 - **质量把控**：所有代码均经过人工审核、测试与集成
 
 ### 许可证声明
-本项目采用 **[Apache License 2.0](LICENSE)**（或 MIT，选一个即可）。
+本项目采用 [Apache License 2.0](LICENSE)
 
 **特别声明**：由于代码由 AI 辅助生成，可能包含常见于开源项目的编程范式和公共领域知识。本许可证适用于项目整体的作品表达，但不声称对基础编程概念、算法逻辑或设计模式的独占权。
 
