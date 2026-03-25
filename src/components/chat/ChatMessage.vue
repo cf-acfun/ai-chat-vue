@@ -24,7 +24,7 @@
         {{ isUser ? 'You' : 'AI Assistant' }}
       </div>
 
-      <div class="prose prose-sm max-w-none">
+      <div v-if="!message.error" class="prose prose-sm max-w-none">
         <MarkdownRenderer
           :content="message.content"
           :is-streaming="message.isStreaming"
@@ -34,10 +34,10 @@
       <!-- Error message -->
       <div
         v-if="message.error"
-        class="flex items-center gap-2 text-red-600 text-sm mt-2"
+        class="flex items-start gap-2 text-red-600 text-sm mt-2 p-2 bg-red-50 rounded"
       >
-        <AlertCircle class="w-4 h-4" />
-        <span>发生错误</span>
+        <AlertCircle class="w-4 h-4 flex-shrink-0 mt-0.5" />
+        <div class="break-all">{{ message.content }}</div>
       </div>
 
       <!-- Actions -->

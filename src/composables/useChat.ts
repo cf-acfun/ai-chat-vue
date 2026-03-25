@@ -60,10 +60,11 @@ export function useChat() {
           },
           onError: (err: Error) => {
             error.value = err.message;
+            console.error('[DEBUG] 聊天错误:', err);
             store.updateMessage(conversationId, assistantMessageId, {
               isStreaming: false,
               error: true,
-              content: '抱歉，发生了错误，请稍后重试。',
+              content: `请求失败: ${err.message}`,
             });
             store.setIsGenerating(false);
           },
